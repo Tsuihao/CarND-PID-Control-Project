@@ -4,11 +4,13 @@
 class PID {
 public:
   /*
-  * Errors
+  * Errors (ctes)
   */
   double p_error;
   double i_error;
   double d_error;
+  double prev_error;
+
 
   /*
   * Coefficients
