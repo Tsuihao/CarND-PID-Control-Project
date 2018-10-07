@@ -10,16 +10,16 @@ Self-Driving Car Engineer Nanodegree Program
 
 ![alt text][PID]
 
-**P**: If only uses P, the car will show the strong over-shooting (tuning heavily left and right in order to compensate the CTE)
+**P**: If only uses P, the car will show the strong over-shooting (turing heavily left and right in order to compensate the CTE)
 
-**D**: D term help to smooth the steering angle. The car will behavior much smoother than only use the P term.
+**D**: D term help to smooth the steering angle. The car will behavioured much smoother than only use the P term.
 
 **I**: I term compensates for bias. However, in this project, we do not have the bias for our actuator, so this term does not affect obviously for the result.
 
 
 **Hyper-parameter tunings**
 
-The hyperparameters (p_coeff, d_coeff, and i_coeff) is first tuned by [Twiddle](https://www.aiche.org/resources/publications/cep/2016/february/pid-explained-process-engineers-part-2-tuning-coefficients) and follow by fine-tuning based on visually observed the driving behavior as above-mentioned. e.g. if see car drives over-shooting, then decrease the p_coeff or increase the d_coeff. 
+The hyper parameters (p_coeff, d_coeff, and i_coeff) is first tuned by [Twiddle](https://www.aiche.org/resources/publications/cep/2016/february/pid-explained-process-engineers-part-2-tuning-coefficients), and follow by fine-tuning based on visaully observed the driving behaviour as above-mentioned. e.g. if see car drives over-shootingly, then decrease the p_coeff or increase the d_coeff. 
 
 ## Dependencies
 
